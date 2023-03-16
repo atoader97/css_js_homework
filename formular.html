@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
+			<script src="myScript.js"></script>
+		</head>
+		<body>
+			<!--<input type="text" name="first_name" value="Enter your first name here"/>-->
+			<!--<form action="page_that_handles_registration_data" method="post">-->
+			<form id="form" onsubmit="return test();" action="success.html" method="post">
+				<label id="fname">First name:</label>
+				<input name="First Name" type="text" required />
+				<br/>
+				<br/>
+				<label id="lname">Last name:</label>
+				<input name="Last name" type="text" required />
+				<br/>
+				<br/>
+				<label id="email">E-mail:</label>
+				<input name="E-mail" type="email" required />
+				<br/>
+				<br/>
+				<label id="usern">Username:</label>
+				<input  name="Username" type="text" required />
+				<br/>
+				<br/>
+				<label id="passw">Password:</label>
+				<input name="Password" type="password" required />
+				<br/>
+				<br/>
+				<label id="cpassw">Confirm password:</label>
+				<input name="Confirm password" type="password" required />
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<label id="ma">Male:</label>
+				<input name="Male" type="radio" required />
+				<br/>
+				<br/>
+				<label id="fe">Female:</label>
+				<input name="Female" type="radio" required />
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<label id="pphoto">Profile photo:</label>
+				<input name="Profile photo" type="file" required />
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<label id="abouty">About yourself:</label>
+				<br/>
+				<br/>
+				<label class="birth">Birthday:</label>
+				<select name="zi" id="zi" required >
+					<option value=“1”>1</option>
+					<option value=“2”>2</option>
+					<option value=“3”>3</option>
+				</select>
+				<select name="luna" id="luna" required >
+					<option value=“1”>Ian</option>
+					<option value=“2”>Feb</option>
+					<option value=“3”>Mar</option>
+				</select>
+				<select name="an" id="an" required >
+					<option value=“1”>1998</option>
+					<option value=“2”>1997</option>
+					<option value=“3”>1996</option>
+				</select>
+				<br/>
+				<br/>
+				<label class="birth">Birthday:</label>
+				<input name="Birthday" type="date" required />
+				<br/>
+				<br/>
+				<br/>
+				<input type="checkbox"/>
+				<label id="subscribe">Subscribe to newsletter:</label>
+				<br/>
+				<br/>
+				<br/>
+				<button onclick=test()>Submit your registration!</button>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				
+				<table border="1">
+					<tr>
+						<th>Nr.</th>
+						<th>F.name</th>
+						<th>L.name</th>
+					</tr>
+					<tr>
+						<td>1.</td>
+						<td>John</td>
+						<td>Doe</td>
+					</tr>
+					<tr>
+						<td>2.</td>
+						<td>Anne</td>
+						<td>Marie</td>
+					</tr>
+				</table>
+				<br/>
+				<br/>
+				<ul class="list">
+					<li>Java</li>
+					<li>C#</li>
+					<li>C++</li>
+				</ul>
+				<ol class="list">
+					<li>Java</li>
+					<li>C#</li>
+					<li>C++</li>
+				</ol>
+			</form>			
+		</body>
+	</html>

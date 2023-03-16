@@ -1,0 +1,92 @@
+body {
+font-family: Arial;
+background-color: #F4FEFE;
+font-size: 120%;
+  width: 230px;
+  border: 50px solid green;
+  padding: 80px;
+  margin: 80px;
+}
+
+th {
+  background-color: #048B9A;
+  color: white;
+  
+}
+
+td {
+  background-color: #048B9A;
+  color: white;
+
+}
+
+
+
+
+#fname {
+ font-weight: bold;
+ color: #048B9A;
+}
+
+#lname {
+ font-weight: bold;
+ color: #22427C;
+}
+
+#email {
+ font-weight: bold;
+ color: #2C75FF;
+}
+
+#usern {
+ font-weight: bold;
+ color: #3A8EBA;
+}
+
+#passw {
+ font-weight: bold;
+ color: #6600FF;
+}
+
+#cpassw {
+ font-weight: bold;
+ color: #318CE7;
+}
+
+#ma {
+ font-weight: bold;
+ color: black;
+}
+
+#fe {
+ font-weight: bold;
+ color: red;
+}
+
+#pphoto {
+ font-weight: bold;
+ color: #1E7FCB;
+}
+
+#abouty {
+ font-weight: bold;
+ color: #1E7FCB;
+}
+
+#subscribe {
+font-size: 90%;
+ font-weight: bold;
+ color: #25FDE9;
+}
+
+.birth {
+font-size: 70%;
+ font-weight: bold;
+ color: #6600FF;
+}
+
+.list {
+ font-weight: bold;
+ color: #25FDE9;
+}
+
